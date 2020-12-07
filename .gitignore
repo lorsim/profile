@@ -128,3 +128,25 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# dependencies
+/frontend/react-admin/node_modules
+/frontend/react-admin/.pnp
+/frontend/react-admin/.pnp.js
+
+# testing
+/frontend/react-admin/coverage
+
+# production
+/frontend/react-admin/build
+
+# misc
+/frontend/react-admin/.DS_Store
+/frontend/react-admin/.env.local
+/frontend/react-admin/.env.development.local
+/frontend/react-admin/.env.test.local
+/frontend/react-admin/.env.production.local
+
+/frontend/react-admin/npm-debug.log*
+/frontend/react-admin/yarn-debug.log*
+/frontend/react-admin/yarn-error.log*
