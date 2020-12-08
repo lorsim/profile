@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Users from './secure/Users';
 import {BrowserRouter, Route} from 'react-router-dom';
