@@ -15,7 +15,7 @@ class Register extends Component {
 
     submit = async (e: SyntheticEvent)=>{
         e.preventDefault();
-        await axios.post('http://localhost:8000/api/register', {
+        await axios.post('register', {
             nickname: this.nickname,
             email: this.email,
             password: this.password,
