@@ -1,5 +1,6 @@
 import React from 'react';
 import Wrapper from './Wrapper';
+import {Redirect} from 'react-router-dom';
 
 const Users = () =>(
     <Wrapper>
@@ -10,7 +11,8 @@ const Users = () =>(
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   <span data-feather="file"></span>
-                  Users
+
+                  <Redirect to ='/profile'/>;
                 </a>
               </li>
             </ul>
