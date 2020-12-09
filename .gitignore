@@ -129,6 +129,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+/social/media/
+
 # dependencies
 /frontend/react-admin/node_modules
 /frontend/react-admin/.pnp
