@@ -21,13 +21,13 @@ class ImageUpload extends Component<{value:string, imageChanged:any}>{
     render() {
         return(
             <div className="form-group">
-
-                <input type="text" name="image"
-                      value={this.image = this.props.value}
-                      onChange={e => {
-                            this.image = e.target.value;
-                            this.props.imageChanged(this.image);
-                      }} />
+               <img src={"http://localhost:8000" + this.props.value} width="100" />
+                 <input type="text" name="image"
+                       value={this.image = this.props.value}
+                       onChange={e => {
+                             this.image = e.target.value;
+                             this.props.imageChanged(this.image);
+                       }} />
 
                 <div className="form-group">
                     <label className="btn btn-primary">
