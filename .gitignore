@@ -129,7 +129,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/social/media/
+t diff/social/media/
 
 # dependencies
 /frontend/react-admin/node_modules
@@ -152,3 +152,5 @@ dmypy.json
 /frontend/react-admin/npm-debug.log*
 /frontend/react-admin/yarn-debug.log*
 /frontend/react-admin/yarn-error.log*
+
+/social/media/
